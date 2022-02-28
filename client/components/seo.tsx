@@ -4,10 +4,10 @@ type Props = {
   path?: string;
 };
 
-function SEO({ path }: Props) {
+function SEO({ path }: Props): JSX.Element {
   const title = path
-    ? `brave little abac.us - ${path}`
-    : "brave little abac.us";
+    ? `🧮 brave little abac.us - ${path}`
+    : "🧮 brave little abac.us";
   const url = path
     ? `https://bravelittleabac.us/${path}`
     : "https://bravelittleabac.us";
@@ -33,7 +33,7 @@ function SEO({ path }: Props) {
       />
       <meta
         name="og:image"
-        content="https://bravelittleabac.us//images/og-image.png"
+        content="https://bravelittleabac.us/images/og-image.png"
       />
       <meta name="og:url" content={url} />
       <meta name="og:type" content="website" />

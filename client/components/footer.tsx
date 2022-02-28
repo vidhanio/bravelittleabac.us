@@ -33,7 +33,7 @@ export default function Footer({ footerItems }: Props): JSX.Element {
         ))}
       </ul>
       <a
-        href="https://github.com/vidhanio/site/blob/main/LICENSE"
+        href="https://github.com/vidhanio/bravelittleabac.us/blob/main/LICENSE"
         className="text-xs font-thin text-stone-800 transition-colors hover:text-green-500 dark:text-stone-200"
       >
         {"site licensed under agpl-3.0."}

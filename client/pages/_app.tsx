@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
         footerItems={[
           {
             name: "source code",
-            url: "https://github.com/vidhanio/site",
+            url: "https://github.com/vidhanio/bravelittleabac.us",
           },
           {
             name: "github",

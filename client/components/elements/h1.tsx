@@ -3,5 +3,9 @@ type Props = {
 };
 
 export default function H1({ children }: Props): JSX.Element {
-  return <h1 className="text-6xl font-extrabold text-green-500">{children}</h1>;
+  return (
+    <h1 className="text-center text-6xl font-extrabold text-green-500">
+      {children}
+    </h1>
+  );
 }
