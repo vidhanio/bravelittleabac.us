@@ -3,7 +3,6 @@ import { useEffect, useRef, useState } from "react";
 
 import { GetServerSidePropsResult } from "next";
 import H1 from "components/elements/h1";
-import Image from "next/image";
 import { Track } from "types";
 import TrackSEO from "components/track-seo";
 import { getTrack } from "api";
@@ -95,12 +94,7 @@ export default function AlbumPage({ track }: Props): JSX.Element {
       <TrackSEO track={track} />
 
       <div className="flex flex-col items-center gap-16">
-        <Image
-          src={track.cover_url}
-          alt="album cover"
-          width={256}
-          height={256}
-        />
+        <img src={track.cover_url} alt="album cover" width={256} height={256} />
         <H1>{track.title}</H1>
       </div>
       <div className="flex flex-row items-center gap-16">

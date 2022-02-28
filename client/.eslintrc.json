@@ -1,6 +1,8 @@
 {
   "extends": "next/core-web-vitals",
   "rules": {
-    "eqeqeq": "warn"
+    "eqeqeq": "warn",
+    "@next/next/no-img-element": "off",
+    "@next/next/google-font-display": "off"
   }
 }
