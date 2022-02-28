@@ -1,16 +1,13 @@
 import Head from "next/head";
+import { Track } from "types";
 
 type Props = {
-  path?: string;
+  track: Track;
 };
 
-function SEO({ path }: Props): JSX.Element {
-  const title = path
-    ? `🧮 brave little abac.us - ${path}`
-    : "🧮 brave little abac.us";
-  const url = path
-    ? `https://bravelittleabac.us/${path}`
-    : "https://bravelittleabac.us";
+function TrackSEO({ track }: Props): JSX.Element {
+  const title = `🧮 brave little abac.us - ${track.title}`;
+  const url = `https://bravelittleabac.us/albums/${track.album_path}/tracks/${track.track_number}`;
 
   return (
     <Head>
@@ -23,7 +20,7 @@ function SEO({ path }: Props): JSX.Element {
         name="description"
         content="fan site for the best emo band of all time."
       />
-      {/*<meta name="theme-color" content="#6466e9" />*/}
+
       <link rel="icon" href="/favicon.ico" />
 
       <meta name="og:title" content={title} />
@@ -31,10 +28,7 @@ function SEO({ path }: Props): JSX.Element {
         name="og:description"
         content="fan site for the best emo band of all time."
       />
-      <meta
-        name="og:image"
-        content="https://bravelittleabac.us/images/og-image.png"
-      />
+      <meta name="og:image" content={track.cover_url} />
       <meta name="og:url" content={url} />
       <meta name="og:type" content="website" />
 
@@ -46,13 +40,10 @@ function SEO({ path }: Props): JSX.Element {
         name="twitter:description"
         content="fan site for the best emo band of all time."
       />
-      <meta
-        name="twitter:image"
-        content="https://bravelittleabac.us/images/og-image.png"
-      />
+      <meta name="twitter:image" content={track.cover_url} />
       <meta name="og:url" content={url} />
     </Head>
   );
 }
 
-export default SEO;
+export default TrackSEO;

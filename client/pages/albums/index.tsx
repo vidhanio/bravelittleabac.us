@@ -3,7 +3,7 @@ import { GetServerSidePropsResult } from "next";
 import H1 from "components/elements/h1";
 import Image from "next/image";
 import Link from "next/link";
-import SEO from "components/seo";
+import PageSEO from "components/page-seo";
 import { getAlbums } from "api";
 
 type Props = {
@@ -13,7 +13,8 @@ type Props = {
 export default function AlbumsPage({ albums }: Props): JSX.Element {
   return (
     <>
-      <SEO path="albums" />
+      <PageSEO path="albums" />
+
       <H1>albums</H1>
       <ul className="flex flex-col items-center justify-center gap-16 md:flex-row md:flex-wrap">
         {albums

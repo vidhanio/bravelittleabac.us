@@ -5,6 +5,7 @@ import { GetServerSidePropsResult } from "next";
 import H1 from "components/elements/h1";
 import Image from "next/image";
 import { Track } from "types";
+import TrackSEO from "components/track-seo";
 import { getTrack } from "api";
 import { useRouter } from "next/router";
 
@@ -91,6 +92,8 @@ export default function AlbumPage({ track }: Props): JSX.Element {
 
   return (
     <>
+      <TrackSEO track={track} />
+
       <div className="flex flex-col items-center gap-16">
         <Image
           src={track.cover_url}

@@ -1,4 +1,5 @@
 import { Album } from "types";
+import AlbumSEO from "components/album-seo";
 import { GetServerSidePropsResult } from "next";
 import H1 from "components/elements/h1";
 import Image from "next/image";
@@ -18,6 +19,8 @@ type Params = {
 export default function AlbumPage({ album }: Props): JSX.Element {
   return (
     <>
+      <AlbumSEO album={album} />
+
       <div className="flex flex-col items-center gap-16">
         <Image
           src={album.cover_url}

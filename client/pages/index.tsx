@@ -1,11 +1,11 @@
 import H1 from "components/elements/h1";
-import SEO from "components/seo";
+import PageSEO from "components/page-seo";
 import { Section } from "layouts/section";
 
 export default function IndexPage() {
   return (
     <>
-      <SEO />
+      <PageSEO />
 
       <H1>brave little abac.us</H1>
 
