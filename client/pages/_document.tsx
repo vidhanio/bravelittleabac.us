@@ -17,7 +17,7 @@ export default function Document(): JSX.Element {
       </Head>
       <body
         className={
-          "font-handwritten bg-stone-100 text-stone-900 dark:bg-stone-900 dark:text-stone-100"
+          "flex flex-col items-center bg-stone-100 font-handwritten text-stone-900 dark:bg-stone-900 dark:text-stone-100"
         }
       >
         <Main />

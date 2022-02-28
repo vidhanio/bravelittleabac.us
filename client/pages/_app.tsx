@@ -14,6 +14,10 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
             name: "home",
             url: "/",
           },
+          {
+            name: "albums",
+            url: "/albums",
+          },
         ]}
       />
       <WrapperLayout>
@@ -32,10 +36,6 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
           {
             name: "twitter",
             url: "https://twitter.com/vidhanio",
-          },
-          {
-            name: "linkedin",
-            url: "https://www.linkedin.com/in/vidhanio/",
           },
         ]}
       />

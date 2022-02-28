@@ -1,6 +1,6 @@
 {
   "discomfort": {
-    "title": "Just Got Back From the Discomfort—We're Alright",
+    "title": "Just Got Back From the Discomfort-We're Alright",
     "release_date": "2010-05-29",
     "cover_drive_id": "1VphxqhbmjlxfhbhV76tch1Ntgf4uPokU",
     "path": "discomfort",
@@ -58,37 +58,48 @@
   "masked-dancers": {
     "title": "Masked Dancers: Concern In So Many Things You Forget Where You Are",
     "release_date": "2009-08-01",
+    "cover_drive_id": "1t8c1bCs1uRAj5qMSxfooMThA62-w1BUY",
     "path": "masked-dancers",
     "tracks": [
       {
-        "title": "I See It Too."
+        "title": "I See It Too.",
+        "drive_id": "1fu95U4m1T1T1HH6MmcUQyuLDm4EoBpzw"
       },
       {
-        "title": "\"But I Won't Always Be On The Receiving End!\""
+        "title": "\"But I Won't Always Be On The Receiving End!\"",
+        "drive_id": "1pMgGY-VW-rArgH2WyvPVnnNvNVLsWFn8"
       },
       {
-        "title": "A Map Of The Stars"
+        "title": "A Map Of The Stars",
+        "drive_id": "16J-vXfH87P-zcI511_wkO79Y8QR60pKI"
       },
       {
-        "title": "Waiting For Your Return, Like Running Backwards"
+        "title": "Waiting For Your Return, Like Running Backwards",
+        "drive_id": "15wqwEbOwjW4wtV51DURyR88HZvnwlRxN"
       },
       {
-        "title": "(Through Hallways)"
+        "title": "(Through Hallways)",
+        "drive_id": "11wTUCN0PQgcuZXdkiJd15k4nD_cPue74"
       },
       {
-        "title": "\"He Never Existed In The First Place\""
+        "title": "\"He Never Existed In The First Place\"",
+        "drive_id": "1fagRqswWCMPJKvcXsqDLGwmWQpZrOkKq"
       },
       {
-        "title": "Born Again So Many Times You Forget You Are"
+        "title": "Born Again So Many Times You Forget You Are",
+        "drive_id": "13YS6vSqRZd2Tv79KJdwZ4nCGEzuNWclk"
       },
       {
-        "title": "(Underground)"
+        "title": "(Underground)",
+        "drive_id": "1-5-M40mhvZQNlLc2GWmGsdwcDWGU9u5C"
       },
       {
-        "title": "Make Sure To Wave (When Looking Down From The Clouds)"
+        "title": "Make Sure To Wave (When Looking Down From The Clouds)",
+        "drive_id": "1eJG1XkNtQnplH-Rc-WfhN0ehWZp1xmiK"
       },
       {
-        "title": "It's A Lot. It's Seamless."
+        "title": "It's A Lot. It's Seamless.",
+        "drive_id": "1tyj2Cip1YcRXbBL5jzGckM3kFZSWR1EB"
       }
     ]
   }
