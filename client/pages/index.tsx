@@ -1,4 +1,3 @@
-import A from "components/elements/a";
 import H1 from "components/elements/h1";
 import SEO from "components/seo";
 import { Section } from "layouts/section";
