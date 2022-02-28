@@ -31,10 +31,7 @@ function PageSEO({ path }: Props): JSX.Element {
         name="og:description"
         content="fan site for the best emo band of all time."
       />
-      <meta
-        name="og:image"
-        content="https://bravelittleabac.us/images/og-image.png"
-      />
+      <meta name="og:image" />
       <meta name="og:url" content={url} />
       <meta name="og:type" content="website" />
 
@@ -46,10 +43,7 @@ function PageSEO({ path }: Props): JSX.Element {
         name="twitter:description"
         content="fan site for the best emo band of all time."
       />
-      <meta
-        name="twitter:image"
-        content="https://bravelittleabac.us/images/og-image.png"
-      />
+      <meta name="twitter:image" />
       <meta name="og:url" content={url} />
     </Head>
   );
