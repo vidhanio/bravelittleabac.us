@@ -126,5 +126,29 @@
         "drive_id": "1Cy83lUBSoVpep9mqkc3S3Q7qVA7fOl9n"
       }
     ]
+  },
+  "demo": {
+    "title": "Demo?",
+    "release_date": "2008-03-01",
+    "cover_drive_id": "1MZF4zzUAXMVm7K1bFPHqLt1XnrrKDCZA",
+    "path": "demo",
+    "tracks": [
+      {
+        "title": "The Buffalo",
+        "drive_id": "1rU8c3Rg2Mg150SP2jMM57ZY8ZdHCNcxv"
+      },
+      {
+        "title": "You're Not Me, But Neither Am I",
+        "drive_id": "1iH0u5yf7lOocbNBYTaV4eYoYubg5VJ1w"
+      },
+      {
+        "title": "Imaginary Peaks, Imaginary Beasts",
+        "drive_id": "1iH0u5yf7lOocbNBYTaV4eYoYubg5VJ1w"
+      },
+      {
+        "title": "El Capitano",
+        "drive_id": "10UDybTH93EyxaRPtruCYEay2iqX_N1Vg"
+      }
+    ]
   }
 }
